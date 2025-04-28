@@ -1,0 +1,527 @@
+{
+    "columns": [
+        {
+            "column no": 0,
+            "column_name": "duration",
+            "max": 42448,
+            "min": 0,
+            "type": "continous"
+        },
+        {
+            "column no": 1,
+            "column_name": "protocol_type",
+            "i2s": [
+                0,
+                1,
+                2
+            ],
+            "size": 3,
+            "type": "categorical"
+        },
+        {
+            "column no": 2,
+            "column_name": "service",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+            ],
+            "size": 63,
+            "type": "categorical"
+        },
+        {
+            "column no": 3,
+            "column_name": "flag",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "size": 11,
+            "type": "categorical"
+        },
+        {
+            "column no": 4,
+            "column_name": "src_bytes",
+            "max": 20.357082460802918,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 5,
+            "column_name": "dst_bytes",
+            "max": 15.455568650926228,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 6,
+            "column_name": "land",
+            "i2s": [
+                0,
+                1
+            ],
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "column no": 7,
+            "column_name": "wrong_fragment",
+            "i2s": [
+                0,
+                1,
+                2
+            ],
+            "size": 3,
+            "type": "categorical"
+        },
+        {
+            "column no": 8,
+            "column_name": "urgent",
+            "i2s": [
+                0
+            ],
+            "size": 1,
+            "type": "categorical"
+        },
+        {
+            "column no": 9,
+            "column_name": "hot",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "size": 17,
+            "type": "categorical"
+        },
+        {
+            "column no": 10,
+            "column_name": "num_failed_logins",
+            "i2s": [
+                0,
+                1
+            ],
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "column no": 11,
+            "column_name": "logged_in",
+            "i2s": [
+                0,
+                1
+            ],
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "column no": 12,
+            "column_name": "num_compromised",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "size": 11,
+            "type": "categorical"
+        },
+        {
+            "column no": 13,
+            "column_name": "root_shell",
+            "i2s": [
+                0,
+                1
+            ],
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "column no": 14,
+            "column_name": "su_attempted",
+            "i2s": [
+                0,
+                1,
+                2
+            ],
+            "size": 3,
+            "type": "categorical"
+        },
+        {
+            "column no": 15,
+            "column_name": "num_root",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "size": 12,
+            "type": "categorical"
+        },
+        {
+            "column no": 16,
+            "column_name": "num_file_creations",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "size": 7,
+            "type": "categorical"
+        },
+        {
+            "column no": 17,
+            "column_name": "num_shells",
+            "i2s": [
+                0,
+                1,
+                2
+            ],
+            "size": 3,
+            "type": "categorical"
+        },
+        {
+            "column no": 18,
+            "column_name": "num_access_files",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "size": 5,
+            "type": "categorical"
+        },
+        {
+            "column no": 19,
+            "column_name": "num_outbound_cmds",
+            "i2s": [
+                0
+            ],
+            "size": 1,
+            "type": "categorical"
+        },
+        {
+            "column no": 20,
+            "column_name": "is_host_login",
+            "i2s": [
+                0
+            ],
+            "size": 1,
+            "type": "categorical"
+        },
+        {
+            "column no": 21,
+            "column_name": "is_guest_login",
+            "i2s": [
+                0,
+                1
+            ],
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "column no": 22,
+            "column_name": "count",
+            "max": 511,
+            "min": 1,
+            "type": "continous"
+        },
+        {
+            "column no": 23,
+            "column_name": "srv_count",
+            "max": 511,
+            "min": 1,
+            "type": "continous"
+        },
+        {
+            "column no": 24,
+            "column_name": "serror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 25,
+            "column_name": "srv_serror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 26,
+            "column_name": "rerror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 27,
+            "column_name": "srv_rerror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 28,
+            "column_name": "same_srv_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 29,
+            "column_name": "diff_srv_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 30,
+            "column_name": "srv_diff_host_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 31,
+            "column_name": "dst_host_count",
+            "max": 255,
+            "min": 1,
+            "type": "continous"
+        },
+        {
+            "column no": 32,
+            "column_name": "dst_host_srv_count",
+            "max": 255,
+            "min": 1,
+            "type": "continous"
+        },
+        {
+            "column no": 33,
+            "column_name": "dst_host_same_srv_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 34,
+            "column_name": "dst_host_diff_srv_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 35,
+            "column_name": "dst_host_same_src_port_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 36,
+            "column_name": "dst_host_srv_diff_host_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 37,
+            "column_name": "dst_host_serror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 38,
+            "column_name": "dst_host_srv_serror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 39,
+            "column_name": "dst_host_rerror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 40,
+            "column_name": "dst_host_srv_rerror_rate",
+            "max": 1.0,
+            "min": 0.0,
+            "type": "continous"
+        },
+        {
+            "column no": 41,
+            "column_name": "class",
+            "i2s": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "size": 23,
+            "type": "categorical"
+        }
+    ],
+    "date_info": {},
+    "epochs": 500,
+    "gen_inter": false,
+    "integer_info": [
+        "duration",
+        "src_bytes",
+        "dst_bytes",
+        "land",
+        "wrong_fragment",
+        "urgent",
+        "hot",
+        "num_failed_logins",
+        "logged_in",
+        "num_compromised",
+        "root_shell",
+        "su_attempted",
+        "num_root",
+        "num_file_creations",
+        "num_shells",
+        "num_access_files",
+        "num_outbound_cmds",
+        "is_host_login",
+        "is_guest_login",
+        "count",
+        "srv_count",
+        "dst_host_count",
+        "dst_host_srv_count"
+    ],
+    "name": "Intrusion_train_CTGANSynthesizer-1620309139933901",
+    "non_negative_cols": [
+        "src_bytes",
+        "dst_bytes"
+    ],
+    "problem_type": "binary_classification",
+    "target": "class"
+}

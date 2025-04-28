@@ -1,0 +1,6 @@
+[submodule "dtds/backend/tensorpipe"]
+	path = dtds/backend/tensorpipe
+	url = https://github.com/pytorch/tensorpipe
+[submodule "dtds/backend/gloo"]
+	path = dtds/backend/gloo
+	url = https://github.com/facebookincubator/gloo

@@ -1,0 +1,46 @@
+image: "python:3.7"
+
+# Change pip's cache directory to be inside the project directory.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+before_script:
+  - python --version
+  - python -m pip --version
+  - pip install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
+
+stages:
+  - Build
+  - Static Analysis
+  - Unit Testing
+  # - Train
+  # - Validation
+  # - Deploy
+
+build: 
+  stage: Build
+  script: 
+  - pip install -r requirements.txt
+
+flake8:
+  stage: Static Analysis
+  script:
+  - flake8 client/
+
+pylama:
+  stage: Static Analysis
+  script:
+    # Disable unused imports warnings and line too long warnings since these already get handled by flake8
+    - pylama --ignore W0611, E501
+
+pytest_unit_testing:
+  stage: Unit Testing
+  script:
+  - pytest tests/

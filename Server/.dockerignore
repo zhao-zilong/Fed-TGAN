@@ -1,0 +1,9 @@
+# files
+Dockerfile
+.dockerignore
+.flake8
+.gitignore
+.gitlab-ci.yml
+
+# Directories
+Client/
