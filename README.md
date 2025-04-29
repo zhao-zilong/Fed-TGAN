@@ -1,6 +1,6 @@
 # FED-TGAN: Federated Learning Framework for Synthesizing Tabular Data 
 
-This repo is the testbed for paper ***FED-TGAN: Federated Learning Framework for Synthesizing Tabular Data***. The code contains two parts: `Server` and `Client`. The server is the federator in federated learning (FL). The clients are the participants. The testbed is a distributed framework realised on Pytorch RPC. The server and client can be placed on different computers, as long as they can communicate via internet. I will first introduce how to train the FED-TGAN algorithm (using Intrusion dataset as a demo). Then explain how to evaluate the results (i.e., statistical similarity and ML utility) in the same way as we showed in the paper.
+This repo is the testbed for paper ***FED-TGAN: Federated Learning Framework for Synthesizing Tabular Data*** and ***GDTS: GAN-based distributed tabular synthesizer***. The code contains two parts: `Server` and `Client`. The server is the federator in federated learning (FL). The clients are the participants. The testbed is a distributed framework realised on Pytorch RPC. The server and client can be placed on different computers, as long as they can communicate via internet. I will first introduce how to train the FED-TGAN algorithm (using Intrusion dataset as a demo). Then explain how to evaluate the results (i.e., statistical similarity and ML utility) in the same way as we showed in the paper.
 
 ## Training process
 
